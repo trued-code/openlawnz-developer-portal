@@ -1,0 +1,125 @@
+/*styling.css*/
+body{
+    font: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;}
+*{
+    box-sizing: border-box;}
+#container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;}
+#header{
+    height: 80px;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/OpenLaw_Header_Background.jpg);
+    background-size: cover;}
+#brand{
+    flex: 70%;
+    padding-left: 20px;
+    padding-top: 10px;}
+h1 {
+    padding-left: 90px;
+    font-size: 10px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;}
+.text{
+    float: left; 
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    background: white;}
+#nav_box{
+    background-image: url(images/OpenLaw_Tab_Background.jpg);
+    background-size: cover;}
+#menu_text{
+    display: flex;
+    flex-wrap: wrap;}
+#menu_text p{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    width: 75%;}
+#menu{
+    background: linear-gradient(#88b260, white);
+    background: -webkit-linear-gradient(#88b260, white);
+    background: -o-linear-gradient(#88b260, white);
+    background: -moz-linear-gradient(#88b260 , white);
+    padding: 40px 40;
+    display: flex;
+    flex-wrap: wrap;}
+#menu a{
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;}
+#menu a:last-child{
+    border-right: none;}
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: darkgreen;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;}
+#menu a:hover, #menu a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgreen;
+    background: white;}
+/*small screens: vertical menu*/
+@media screen and (max-width: 700px){
+    #menu{
+        flex-direction: column;
+        align-content: center;    }
+    #menu a{
+        border-right: none;}
+        }
+.introduction{
+    background-color: white;
+    background-image: url(images/OpenLaw_Welcome_Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background: -webkit-white; 
+    background: -o-white; 
+    background: -moz-white; 
+    padding: 30px;}
+#intro_text p{
+    width: 45%;
+    font-size: 15px; 
+    color: black;}
+#overview{
+    background background-color: white;
+    background: -webkit-white; 
+    background: -o-white; 
+    background: -moz-white; 
+    padding: 10px;}
+.footer{
+    height: 100px;
+    color: white;
+    background-color: #2e6266;
+    padding: 10px 30px;
+    margin-top: auto;}
+.footer_left {
+    width: 45%;
+    float:left;
+    font-size: 10px;
+    text-decoration: none;
+    padding-top: 10px;}
+.footer_right{
+    width: 45%;
+    float:right;
+    font-size: 11px;
+    text-align: end;
+    line-height: 0.1;
+    padding-top: 20px;}
