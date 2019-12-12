@@ -28,7 +28,7 @@ h1 {
     color: white;
     text-decoration: none;}
 .text{
-    float: left; 
+    float: left;
     width: 100px;
     padding: 5px;
     font-size: 15px;
@@ -43,7 +43,7 @@ h1 {
 #menu_text p{
     padding: 20px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 36px;
     color: white;
     width: 75%;}
 #menu{
@@ -63,7 +63,7 @@ h1 {
 #menu a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 26px;
     color: darkgreen;
     line-height: 30px;
     -webkit-transition: font-size 0.3s ease;
@@ -93,19 +93,19 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background: -webkit-white; 
-    background: -o-white; 
-    background: -moz-white; 
+    background: -webkit-white;
+    background: -o-white;
+    background: -moz-white;
     padding: 30px;}
 #intro_text p{
     width: 45%;
-    font-size: 15px; 
+    font-size: 15px;
     color: black;}
 #overview{
     background-color: white;
-    background: -webkit-white; 
-    background: -o-white; 
-    background: -moz-white; 
+    background: -webkit-white;
+    background: -o-white;
+    background: -moz-white;
     padding: 10px;}
 .footer{
     height: 100px;
