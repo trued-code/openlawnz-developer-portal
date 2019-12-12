@@ -70,12 +70,15 @@ h1 {
     -moz-transition: font-size 0.3s ease;
     -o-transition: font-size 0.3s ease;
     -ms-transition: font-size 0.3s ease;
-    transition: font-size 0.3s ease;}
+    transition: font-size 0.3s ease;
+}
 #menu a:hover, #menu a.active{
-    font-size: 20px;
+/*    font-size: 20px;*/
     font-weight: bold;
     color: darkgreen;
-    background: white;}
+    background: white;
+    border-top: 2px solid orange;
+}
 /*small screens: vertical menu*/
 @media screen and (max-width: 700px){
     #menu{
