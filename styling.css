@@ -67,11 +67,6 @@ h1 {
     color: darkgreen;
     line-height: 30px;
     padding-top: 20px;
-    -webkit-transition: font-size 0.3s ease;
-    -moz-transition: font-size 0.3s ease;
-    -o-transition: font-size 0.3s ease;
-    -ms-transition: font-size 0.3s ease;
-    transition: font-size 0.3s ease;
 }
 #menu a:hover, #menu a.active{
 /*    font-size: 20px;*/
@@ -90,18 +85,23 @@ h1 {
         }
 .introduction{
     background-color: white;
-    background-image: url(images/OpenLaw_Welcome_Image.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+    display: flex;
     background: -webkit-white;
     background: -o-white;
     background: -moz-white;
-    padding: 30px;}
+    padding: 30px;
+}
+
 #intro_text p{
-    width: 45%;
+    width: 50%;
     font-size: 15px;
     color: black;}
+#intro_image{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #overview{
     background-color: white;
     background: -webkit-white;
@@ -121,6 +121,7 @@ td {
 }
 .row_headings{
     text-align: center;
+    font-size: 15px;
 }
 .col02{
     width: 40%;
