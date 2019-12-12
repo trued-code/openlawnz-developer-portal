@@ -56,7 +56,7 @@ h1 {
     flex-wrap: wrap;}
 #menu a{
     padding: 0 30px;
-    height: 30px;
+    height: 70px;
     border-right: 1px solid #5d12e7;}
 #menu a:last-child{
     border-right: none;}
@@ -66,6 +66,7 @@ h1 {
     font-size: 26px;
     color: darkgreen;
     line-height: 30px;
+    padding-top: 20px;
     -webkit-transition: font-size 0.3s ease;
     -moz-transition: font-size 0.3s ease;
     -o-transition: font-size 0.3s ease;
@@ -107,6 +108,23 @@ h1 {
     background: -o-white;
     background: -moz-white;
     padding: 10px;}
+table{
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    table-layout: fixed;
+    overflow: hidden;
+}
+td {
+    vertical-align: top;
+}
+.row_headings{
+    text-align: center;
+}
+.col02{
+    width: 40%;
+}
 .footer{
     height: 100px;
     color: white;
