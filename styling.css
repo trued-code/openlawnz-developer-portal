@@ -12,7 +12,7 @@ body{
     flex-direction: column;}
 #header{
     height: 80px;
-    padding: 20px 10px;
+    padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
     background-image: url(images/OpenLaw_Header_Background.jpg);
@@ -21,6 +21,7 @@ body{
     flex: 70%;
     padding-left: 20px;
     padding-top: 10px;}
+
 h1 {
     padding-left: 90px;
     font-size: 10px;
@@ -41,103 +42,93 @@ h1 {
     display: flex;
     flex-wrap: wrap;}
 #menu_text p{
-    padding: 30px;
+    padding-left: 100px;
     text-decoration: none;
     font-size: 36px;
     color: white;
     width: 75%;}
 #menu{
-    background: linear-gradient(#88b260, white);
-    background: -webkit-linear-gradient(#88b260, white);
-    background: -o-linear-gradient(#88b260, white);
-    background: -moz-linear-gradient(#88b260 , white);
-    padding: 40px 40;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-wrap: wrap;}
 #menu a{
-    padding: 0 30px;
-    height: 70px;
-    border-right: 1px solid #5d12e7;}
-#menu a:last-child{
-    border-right: none;}
-#menu a{
+    padding: 10px 20px;
+    border-right: 3px solid white;
+    background-color: lightgray;
+    opacity: 70%;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 26px;
     color: darkgreen;
-    line-height: 30px;
-    padding-top: 20px;
-}
+    width: 33%;}
+
+#menu a:last-child{
+    border-right: none;}
+
 #menu a:hover, #menu a.active{
-/*    font-size: 20px;*/
-    font-weight: bold;
     color: darkgreen;
-    background: white;
-    border-top: 2px solid orange;
-}
+    background-color: white;
+    opacity: inherit;
+    border-top: 4px solid #CF9768;}
+
 /*small screens: vertical menu*/
 @media screen and (max-width: 700px){
     #menu{
         flex-direction: column;
-        align-content: center;    }
+        align-content: center;}
     #menu a{
-        border-right: none;}
+        border-right: none;
+        width: 70%;}
         }
 .introduction{
     background-color: white;
     display: flex;
-    background: -webkit-white;
-    background: -o-white;
-    background: -moz-white;
-    padding: 30px;
-}
+    padding: 30px;}
 
 #intro_text p{
-    width: 50%;
+    width: 80%;
     font-size: 15px;
     color: black;}
 #intro_image{
     width: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto;}
+
 #overview{
     background-color: white;
-    background: -webkit-white;
-    background: -o-white;
-    background: -moz-white;
-    padding: 10px;}
-table{
-    border-collapse: collapse;
-}
+    padding: 10px;
+    border-collapse: collapse;}
+
 table, th, td {
     border: 1px solid black;
     table-layout: fixed;
-    overflow: hidden;
-}
+    overflow: hidden;}
+
 td {
-    vertical-align: top;
-}
+    vertical-align: top;}
+
 .row_headings{
     text-align: center;
-    font-size: 15px;
-}
+    font-size: 15px;}
+
 .col02{
-    width: 40%;
-}
+    width: 40%;}
+
 .footer{
     height: 100px;
     color: white;
     background-color: #2e6266;
     padding: 10px 30px;
     margin-top: auto;}
+
 .footer_left {
     width: 45%;
     float:left;
     font-size: 10px;
     text-decoration: none;
     padding-top: 10px;}
+
 .footer_right{
     width: 45%;
     float:right;
