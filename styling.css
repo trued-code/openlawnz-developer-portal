@@ -58,8 +58,8 @@ h1 {
     background-color: lightgray;
     opacity: 70%;
     text-decoration: none;
-    font-size: 26px;
-    color: darkgreen;
+    font-size: 27px;
+    color: #225160;
     width: 33%;}
 
 #menu a:last-child{
@@ -88,7 +88,7 @@ h1 {
 #intro_text p{
     width: 80%;
     font-size: 15px;
-    color: black;}
+    color: #424242;}
 #intro_image{
     width: auto;
     display: block;
